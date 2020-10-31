@@ -24,6 +24,11 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
+.title{
+  width: 90%;
+  text-transform: uppercase;
+}
+
 .wrapper{
   padding: 2em;
 }
@@ -38,7 +43,7 @@ body {
 
 .calculating__subtitle {
   font-weight: normal;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin: 0.2em 0em;
   white-space: normal;
   margin-bottom: .3em;
