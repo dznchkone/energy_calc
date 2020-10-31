@@ -37,7 +37,7 @@ body {
 }
 
 .calculating__subtitle {
-  font-weight: bold;
+  font-weight: normal;
   text-transform: uppercase;
   margin: 0.2em 0em;
   white-space: normal;
