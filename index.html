@@ -10,9 +10,10 @@
 <body>
   <div class="wrapper">
     <div class="calculating">
-      <div class="container border shadow-sm p-3">
-        <div class="row d-flex justify-content-center ">
-          <h2 class="title bg-light shadow-sm text-center">Исходное и желаемое</h2>
+      <div class="border shadow-sm p-3 calculating__container">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+          <h2 class="title shadow-sm text-center">Исходное и желаемое</h2>
         </div>
         <div class="row calculating__input-wrapper">
           <div class="col">
@@ -26,64 +27,76 @@
         </div>
         <div class="row calculating__input-wrapper">
           <div class="col">
-            <div class="calculating__subtitle">Чеки <br>Средние продажи в день</div>
+            <div class="calculating__subtitle">Чеки</div>
+            <div class="calculating__text">Средние продажи в день</div>
             <input type="number" class="form-control" id="check-mid" min="0" placeholder="шт.">
           </div>
           <div class="col">
-            <div class="calculating__subtitle">Чеки <br>Желаемые продажи в день</div>
+            <div class="calculating__subtitle">Чеки</div>
+            <div class="calculating__text">Желаемые продажи в день</div>
             <input type="number" class="form-control" id="check-desire" min="0" placeholder="шт.">
           </div>
         </div>
         <div class="row calculating__input-wrapper">
           <div class="col">
-            <div class="calculating__subtitle">ОСС акция <br>Средние продажи в день</div>
+            <div class="calculating__subtitle">ОСС Тотал</div>
+            <div class="calculating__text">Средние продажи в день</div>
             <input type="number" class="form-control" id="oss-stock-mid" min="0" placeholder="шт.">
           </div>
           <div class="col">
-            <div class="calculating__subtitle">ОСС акция <br>Желаемые продажи в день</div>
+            <div class="calculating__subtitle">ОСС Тотал</div>
+            <div class="calculating__text">Желаемые продажи в день</div>
             <input type="number" class="form-control" id="oss-stock-desire" min="0" placeholder="шт.">
           </div>
         </div>
         <div class="row calculating__input-wrapper">
           <div class="col">
-            <div class="calculating__subtitle">ОСС не акция <br>Средние продажи в день</div>
+            <div class="calculating__subtitle">ОСС не акция</div>
+            <div class="calculating__text">Средние продажи в день</div>
             <input type="number" class="form-control" id="oss-not-stock-mid" min="0" placeholder="шт.">
           </div>
           <div class="col">
-            <div class="calculating__subtitle">ОСС не акция <br>Желаемые продажи в день</div>
+            <div class="calculating__subtitle">ОСС не акция</div>
+            <div class="calculating__text">Желаемые продажи в день</div>
             <input type="number" class="form-control" id="oss-not-stock-desire" min="0" placeholder="шт.">
           </div>
         </div>
         <div class="row calculating__input-wrapper">
           <div class="col">
-            <div class="calculating__subtitle">АКС <br>Средние продажи в день</div>
+            <div class="calculating__subtitle">АКС</div>
+            <div class="calculating__text">Средние продажи в день</div>
             <input type="number" class="form-control" id="aks-mid" min="0" placeholder="руб.">
           </div>
           <div class="col">
-            <div class="calculating__subtitle">АКС <br>Желаемые продажи в день</div>
+            <div class="calculating__subtitle">АКС</div>
+            <div class="calculating__text">Желаемые продажи в день</div>
             <input type="number" class="form-control" id="aks-desire" min="0" placeholder="руб.">
           </div>
         </div>
         <div class="row calculating__input-wrapper">
           <div class="col">
-            <div class="calculating__subtitle">ДОП <br>Средние продажи в день</div>
+            <div class="calculating__subtitle">ДОП</div>
+            <div class="calculating__text">Средние продажи в день</div>
             <input type="number" class="form-control" id="dop-mid" min="0" placeholder="руб.">
           </div>
           <div class="col">
-            <div class="calculating__subtitle">ДОП <br>Желаемые продажи в день</div>
+            <div class="calculating__subtitle">ДОП</div>
+            <div class="calculating__text">Желаемые продажи в день</div>
             <input type="number" class="form-control" id="dop-desire" min="0" placeholder="руб.">
           </div>
         </div>
-        
-        <div class="row d-flex justify-content-center">
-          <h2 class="title mt-3 bg-light shadow-sm text-center">Cколько продавать в день</h2>
         </div>
-        <div class="row pl-2 pr-2">
+        
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+          <h2 class="title mt-3 mb-3 shadow-sm text-center">Cколько продавать в день</h2>
+        </div>
+        <div class="row pl-2 pr-2 calculating__output-wrapper">
           <div class="col rounded border">
             <div class="calculating__output mt-2 mb-2 d-flex justify-content-center align-items-center">Чеки: <span id="check" >0</span>шт.</div>
           </div>
           <div class="col rounded border ml-2">
-            <div class="calculating__output mt-2 mb-2 d-flex justify-content-center align-items-center">ОСС акция: <span id="oss-stock" >0</span>шт.</div>
+            <div class="calculating__output mt-2 mb-2 d-flex justify-content-center align-items-center">ОСC Тотал: <span id="oss-stock" >0</span>шт.</div>
           </div>
           <div class="col rounded border ml-2 mr-2">
             <div class="calculating__output mt-2 mb-2 d-flex justify-content-center align-items-center">ОСС не акция: <span id="oss-not-stock" >0</span>шт.</div>
@@ -94,7 +107,9 @@
           <div class="col rounded border">
             <div class="calculating__output mt-2 mb-2 d-flex justify-content-center align-items-center">ДОП: <span id="dop" >0</span>руб.</div>
           </div>
-        </div>      
+        </div> 
+        </div>
+             
       </div>
     </div>
   </div>

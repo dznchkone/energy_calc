@@ -11,7 +11,7 @@ html {
   box-sizing: border-box;
 }
 
-body {
+.wrapper{
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   margin: 0; 
@@ -22,30 +22,72 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
+  color: white;
 }
 
 .title{
-  width: 90%;
+  width: 95%;
+  background: inherit;
   text-transform: uppercase;
 }
 
 .wrapper{
+  display: flex;
+  justify-content: center;
   padding: 2em;
 }
 
-.claculating{
-  width: 50%;
+.calculating{
+  width: 90%;
+}
+
+.calculating__container{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 }
 
 .calculating__input-wrapper{
+  background-color: rgba(255, 255, 255, .1);
   margin-top: .5em;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 
 .calculating__subtitle {
-  font-weight: normal;
-  /* text-transform: uppercase; */
-  margin: 0.2em 0em;
+  font-weight: bold;
   white-space: normal;
-  margin-bottom: .3em;
+  margin-top: .3em;
 }
 
+.calculating__text{
+  margin-bottom: 0.2em;
+}
+
+.calculating__output-wrapper{
+
+    background-color: rgba(255, 255, 255, .1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.calculating__output{
+  white-space: pre-wrap;
+}
+
+ul.dropdown-menu {
+	background-color: transparent;
+	border:none;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
