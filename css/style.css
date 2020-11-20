@@ -23,19 +23,17 @@ html {
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .title{
   width: 95%;
   background: inherit;
   text-transform: uppercase;
+  color: white;
 }
 
-.wrapper{
-  display: flex;
-  justify-content: center;
-  padding: 2em;
-}
 
 .calculating{
   width: 100%;
@@ -54,10 +52,19 @@ html {
   padding-bottom: 10px;
 }
 
+.calculating__input-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.calculating__input{
+    margin-top: auto;
+}
+
 .calculating__subtitle {
   font-weight: bold;
   white-space: normal;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 15px;
 }
 
@@ -66,19 +73,31 @@ html {
 }
 
 .calculating__output-wrapper{
-
     background-color: rgba(255, 255, 255, .1);
     padding-top: 10px;
     padding-bottom: 10px;
+    display: flex;
+    justify-content:space-evenly;
 }
 
 
 .calculating__output-border{
-    width: 175px;
+    border: solid 2px #fff;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+
 }
 
 .calculating__output{
-  white-space: pre-wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: pre-wrap;
+    font-weight: bold;
 }
 
 ul.dropdown-menu {
