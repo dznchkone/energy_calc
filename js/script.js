@@ -13,39 +13,39 @@ window.addEventListener('DOMContentLoaded',()=>{
       dopDesire;
 
   const inputs = document.querySelectorAll('input'),
-        resultcheck = document.querySelector('#check'),
+        resultCheck = document.querySelector('#check'),
         resultOssStock = document.querySelector('#oss-stock'),
         resultOssNotStock = document.querySelector('#oss-not-stock'),
         resultAks = document.querySelector('#aks'),
         resultDop = document.querySelector('#dop');
 
-  function verifyResult(result){
+  function verifyResult(result = 0){
     if(isNaN(result) || result < 0) return 0;
     return result;
   }
 
   function calcCheck(){
-    const result = (checkDesire*(workedDays+remainingDays)-(checkMid*workedDays))/remainingDays;
-    resultcheck.textContent = verifyResult(result);
+    const result = Math.ceil((checkDesire*(workedDays+remainingDays)-(checkMid*workedDays))/remainingDays);
+    resultCheck.textContent = verifyResult(result);
   }
 
   function calcOssStock (){
-    const result = (ossStockDesire*(workedDays+remainingDays)-(ossStockMid*workedDays))/remainingDays;
+    const result = Math.ceil((ossStockDesire*(workedDays+remainingDays)-(ossStockMid*workedDays))/remainingDays);
     resultOssStock.textContent = verifyResult(result);
   }
 
   function calcOssNotStock (){
-    const result = (ossNotStockDesire*(workedDays+remainingDays)-(ossNotStockMid*workedDays))/remainingDays;
+    const result = Math.ceil((ossNotStockDesire*(workedDays+remainingDays)-(ossNotStockMid*workedDays))/remainingDays);
     resultOssNotStock.textContent = verifyResult(result);
   }
 
   function calcAks () {
-      const result = (aksDesire*(workedDays+remainingDays)-(aksMid*workedDays))/remainingDays;
+      const result = Math.ceil((aksDesire*(workedDays+remainingDays)-(aksMid*workedDays))/remainingDays);
       resultAks.textContent = verifyResult(result);
   }
 
   function calcDop () {
-    const result = (dopDesire*(workedDays+remainingDays)-(dopMid*workedDays))/remainingDays;
+    const result = Math.ceil((dopDesire*(workedDays+remainingDays)-(dopMid*workedDays))/remainingDays);
     resultDop.textContent = verifyResult(result);
   }
 

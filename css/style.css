@@ -71,6 +71,15 @@ html {
     padding-bottom: 10px;
 }
 
+.calculating__output-wrapper:nth-child(4n){
+    margin-left: 20px;
+}
+
+.calculating__output-border{
+
+    width: 175px;
+}
+
 .calculating__output{
   white-space: pre-wrap;
 }
