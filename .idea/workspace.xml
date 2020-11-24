@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5359fc19-f99d-4c7e-8eff-52a9a03f069c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/dznchkone/energy_calc" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jjJdSap2l9H3SJ2FZRxl6yNVPV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/energy_calc/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5359fc19-f99d-4c7e-8eff-52a9a03f069c" name="Default Changelist" comment="" />
+      <created>1604311655728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604311655728</updated>
+      <workItem from="1604311657302" duration="3282000" />
+      <workItem from="1604326028188" duration="182000" />
+      <workItem from="1605719384531" duration="2731000" />
+      <workItem from="1605865643502" duration="1463000" />
+      <workItem from="1605887417824" duration="765000" />
+      <workItem from="1606225138037" duration="359000" />
+      <workItem from="1606225594914" duration="1556000" />
+    </task>
+    <task id="LOCAL-00001" summary="правки">
+      <created>1605887620725</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605887620725</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="правки" />
+    <option name="LAST_COMMIT_MESSAGE" value="правки" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1868" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605866387542">
+      <screen x="1680" y="0" width="1280" height="994" />
+    </state>
+    <state x="294" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1020/1680.0.1280.994@0.0.1680.1020" timestamp="1605720174083" />
+    <state x="1868" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1020/1680.0.1280.994@1680.0.1280.994" timestamp="1605866387542" />
+    <state x="1772" y="92" width="1096" height="810" key="DiffContextDialog" timestamp="1606226538216">
+      <screen x="1680" y="0" width="1280" height="994" />
+    </state>
+    <state x="1772" y="92" width="1096" height="810" key="DiffContextDialog/0.0.1680.1020/1680.0.1280.994@1680.0.1280.994" timestamp="1606226538216" />
+    <state width="1237" height="321" key="GridCell.Tab.0.bottom" timestamp="1606226427147">
+      <screen x="1680" y="0" width="1280" height="994" />
+    </state>
+    <state width="1237" height="321" key="GridCell.Tab.0.bottom/0.0.1680.1020/1680.0.1280.994@1680.0.1280.994" timestamp="1606226427147" />
+    <state width="1237" height="321" key="GridCell.Tab.0.center" timestamp="1606226427146">
+      <screen x="1680" y="0" width="1280" height="994" />
+    </state>
+    <state width="1237" height="321" key="GridCell.Tab.0.center/0.0.1680.1020/1680.0.1280.994@1680.0.1280.994" timestamp="1606226427146" />
+    <state width="1237" height="321" key="GridCell.Tab.0.left" timestamp="1606226427146">
+      <screen x="1680" y="0" width="1280" height="994" />
+    </state>
+    <state width="1237" height="321" key="GridCell.Tab.0.left/0.0.1680.1020/1680.0.1280.994@1680.0.1280.994" timestamp="1606226427146" />
+    <state width="1237" height="321" key="GridCell.Tab.0.right" timestamp="1606226427146">
+      <screen x="1680" y="0" width="1280" height="994" />
+    </state>
+    <state width="1237" height="321" key="GridCell.Tab.0.right/0.0.1680.1020/1680.0.1280.994@1680.0.1280.994" timestamp="1606226427146" />
+    <state width="1237" height="321" key="GridCell.Tab.1.bottom" timestamp="1606226427147">
+      <screen x="1680" y="0" width="1280" height="994" />
+    </state>
+    <state width="1237" height="321" key="GridCell.Tab.1.bottom/0.0.1680.1020/1680.0.1280.994@1680.0.1280.994" timestamp="1606226427147" />
+    <state width="1237" height="321" key="GridCell.Tab.1.center" timestamp="1606226427147">
+      <screen x="1680" y="0" width="1280" height="994" />
+    </state>
+    <state width="1237" height="321" key="GridCell.Tab.1.center/0.0.1680.1020/1680.0.1280.994@1680.0.1280.994" timestamp="1606226427147" />
+    <state width="1237" height="321" key="GridCell.Tab.1.left" timestamp="1606226427147">
+      <screen x="1680" y="0" width="1280" height="994" />
+    </state>
+    <state width="1237" height="321" key="GridCell.Tab.1.left/0.0.1680.1020/1680.0.1280.994@1680.0.1280.994" timestamp="1606226427147" />
+    <state width="1237" height="321" key="GridCell.Tab.1.right" timestamp="1606226427147">
+      <screen x="1680" y="0" width="1280" height="994" />
+    </state>
+    <state width="1237" height="321" key="GridCell.Tab.1.right/0.0.1680.1020/1680.0.1280.994@1680.0.1280.994" timestamp="1606226427147" />
+    <state width="1237" height="321" key="GridCell.Tab.2.bottom" timestamp="1606226427148">
+      <screen x="1680" y="0" width="1280" height="994" />
+    </state>
+    <state width="1237" height="321" key="GridCell.Tab.2.bottom/0.0.1680.1020/1680.0.1280.994@1680.0.1280.994" timestamp="1606226427148" />
+    <state width="1237" height="321" key="GridCell.Tab.2.center" timestamp="1606226427148">
+      <screen x="1680" y="0" width="1280" height="994" />
+    </state>
+    <state width="1237" height="321" key="GridCell.Tab.2.center/0.0.1680.1020/1680.0.1280.994@1680.0.1280.994" timestamp="1606226427148" />
+    <state width="1237" height="321" key="GridCell.Tab.2.left" timestamp="1606226427148">
+      <screen x="1680" y="0" width="1280" height="994" />
+    </state>
+    <state width="1237" height="321" key="GridCell.Tab.2.left/0.0.1680.1020/1680.0.1280.994@1680.0.1280.994" timestamp="1606226427148" />
+    <state width="1237" height="321" key="GridCell.Tab.2.right" timestamp="1606226427148">
+      <screen x="1680" y="0" width="1280" height="994" />
+    </state>
+    <state width="1237" height="321" key="GridCell.Tab.2.right/0.0.1680.1020/1680.0.1280.994@1680.0.1280.994" timestamp="1606226427148" />
+    <state x="1821" y="142" key="SettingsEditor" timestamp="1606225509225">
+      <screen x="1680" y="0" width="1280" height="994" />
+    </state>
+    <state x="1821" y="142" key="SettingsEditor/0.0.1680.1020/1680.0.1280.994@1680.0.1280.994" timestamp="1606225509225" />
+    <state x="2009" y="233" key="Vcs.Push.Dialog.v2" timestamp="1606226505554">
+      <screen x="1680" y="0" width="1280" height="994" />
+    </state>
+    <state x="432" y="239" key="Vcs.Push.Dialog.v2/0.0.1680.1020/1680.0.1280.994@0.0.1680.1020" timestamp="1605887639086" />
+    <state x="2009" y="233" key="Vcs.Push.Dialog.v2/0.0.1680.1020/1680.0.1280.994@1680.0.1280.994" timestamp="1606226505554" />
+    <state x="657" y="420" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605719445640">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="657" y="420" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1020/1680.0.1280.994@0.0.1680.1020" timestamp="1605719445640" />
+    <state x="2116" y="393" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1606225364662">
+      <screen x="1680" y="0" width="1280" height="994" />
+    </state>
+    <state x="2116" y="393" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1680.1020/1680.0.1280.994@1680.0.1280.994" timestamp="1606225364662" />
+  </component>
+</project>

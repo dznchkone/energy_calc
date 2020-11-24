@@ -77,7 +77,17 @@ html {
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
+    flex-flow: row wrap;
     justify-content:space-evenly;
+}
+
+
+@media screen and (max-width: 749px){
+    .calculating__output-wrapper{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content:space-evenly;
+    }
 }
 
 
@@ -88,7 +98,6 @@ html {
     flex-direction: column;
     justify-content: center;
     margin: 5px;
-
 }
 
 .calculating__output{
